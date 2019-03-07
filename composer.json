@@ -1,0 +1,24 @@
+{
+    "name": "brnrajoriya/urbanpiper",
+    "description": "UrbanPiper Integration.",
+    "keywords": ["urbanpiper", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhaskar Rajoriya",
+            "email": "brn.rajoriya@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrnRajoriya\\UrbanPiper\\": "src/"
+        }
+    }
+}
